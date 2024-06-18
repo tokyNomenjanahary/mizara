@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mizara</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+		integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+		<!-- Navigation -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg my-4">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="index.html">
+						<img src="img/Logo.png" alt="Mizara">
+					</a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0 col-9 justify-content-center">
+							<li class="nav-item mx-4">
+								<a class="nav-link active" aria-current="page" href="#">Accueil</a>
+							</li>
+							<li class="nav-item mx-4">
+								<a class="nav-link" href="#">Portfolio</a>
+							</li>
+							<li class="nav-item mx-4 dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Services
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Action</a></li>
+									<li><a class="dropdown-item" href="#">Another action</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item" href="#">Something else here</a></li>
+								</ul>
+							</li>
+							<li class="nav-item mx-4">
+								<a class="nav-link" aria-disabled="true">Blog</a>
+							</li>
+						</ul>
+						<div>
+							<a class="mz-btn text-white mz-bg-primary" href="/contact.html">Contactez-nous</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- end navigation -->
+		<div class="mz-w-95 mx-auto mb-4">
+			<!-- Form -->
+			<div class="mz-bg-dark mz-rounded-30 text-white p-5 mb-5">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md-5 mb-4">
+						<h2>Optimisez vos processus IT :</h2>
+						<p class="mz-contact-us mz-text-primary m-0">Contactez-nous</p>
+						<p class="mz-contact-us m-0">aujourd'hui !</p>
+						<p class="my-5">
+							Sit ut nulla semper viverra. Senectus malesuada cras aliquet ut nullam nulla purus congue.
+							Accumsan vitae sit blandit at pretium mattis hac volutpat. Tempor accumsan tincidunt in eu
+							varius mi nibh at risus.
+						</p>
+						<div class="row my-3 gx-3">
+							<div class="mz-w-fit-content">
+								<img src="img/location.png" class="mz-contact-icon">
+							</div>
+							<div class="col">
+								<span>Antananarivo, Madagascar</span>
+							</div>
+						</div>
+						<div class="row my-3 gx-3">
+							<div class="mz-w-fit-content">
+								<img src="img/email.png" class="mz-contact-icon">
+							</div>
+							<div class="col">
+								<span>contact@mizara-technologie.com</span>
+							</div>
+						</div>
+						<div class="row my-3 gx-3">
+							<div class="mz-w-fit-content">
+								<img src="img/phone.png" class="mz-contact-icon">
+							</div>
+							<div class="col">
+								<span>+261 32 66 996 96</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 p-0">
+						<div class="bg-white mz-rounded-30 text-dark p-5">
+							<div class="mz-form">
+								<form>
+									<div class="mb-4">
+										<label class="form-label" for="full-name">Nom et Prénom</label>
+										<input type="text" class="form-control" id="full-name"
+											placeholder="Votre nom et prénom">
+									</div>
+									<div class="mb-4">
+										<label class="form-label" for="email">Adresse E-mail</label>
+										<input type="email" id="email" class="form-control"
+											placeholder="Votre Adresse E-mail">
+									</div>
+									<div class="mb-4">
+										<label class="form-label" for="phone">Numéro de Téléphone</label>
+										<input type="text" id="phone" class="form-control phone-mask"
+											placeholder="It Technologie">
+									</div>
+									<div class="row mb-4">
+										<div class="col-sm-6">
+											<label class="form-label" for="company">Entreprise</label>
+											<input type="text" id="company" class="form-control phone-mask"
+												placeholder="Mizara">
+										</div>
+										<div class="col-sm-6">
+											<div>
+												<label for="taille" class="form-label">Taille de l’entreprise</label>
+												<select class="form-select" id="taille"
+													aria-label="Default select example">
+													<option selected="">PME</option>
+													<option value="1">One</option>
+													<option value="2">Two</option>
+													<option value="3">Three</option>
+												</select>
+											</div>
+										</div>
+									</div>
+									<div class="mb-4">
+										<label class="form-label" for="activity-area">Secteur d'activité</label>
+										<input type="text" id="activity-area" class="form-control"
+											placeholder="Votre Secteur d'activité">
+									</div>
+									<button class="w-100 mz-btn text-white mz-bg-primary">Envoyer le message</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Question -->
+			<div class="question mt-4">
+				<div class="mb-5">
+					<h1 class="fs-1 fw-bolder text-center">
+						Foire aux questions
+					</h1>
+				</div>
+				<div class="row justify-content-center mz-rounded-30">
+					<div class="col-md-8 my-4">
+						<div class="row p-4 mz-rounded-20 mz-question-box-shaddow">
+							<div class="col-10">
+								<p class="fw-bold m-0">
+									Fames bibendum morbi et tincidunt quis sagittis. Interdum id proin pretium dignissim
+									magna habitasse elit id quam.
+								</p>
+							</div>
+							<div class="col-2 text-end">
+								<i class='bx bxs-chevron-down fs-4 text-muted fw-light'></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-8 my-4">
+						<div class="row p-4 mz-rounded-20 mz-question-box-shaddow">
+							<div class="col-10">
+								<p class="fw-bold m-0">
+									Fames bibendum morbi et tincidunt quis sagittis. Interdum id proin pretium dignissim
+									magna habitasse elit id quam.
+								</p>
+							</div>
+							<div class="col-2 text-end">
+								<i class='bx bxs-chevron-down fs-4 text-muted fw-light'></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-8 my-4">
+						<div class="row p-4 mz-rounded-20 mz-question-box-shaddow">
+							<div class="col-10">
+								<p class="fw-bold m-0">
+									Fames bibendum morbi et tincidunt quis sagittis. Interdum id proin pretium dignissim
+									magna habitasse elit id quam.
+								</p>
+							</div>
+							<div class="col-2 text-end">
+								<i class='bx bxs-chevron-down fs-4 text-muted fw-light'></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-8 my-4">
+						<div class="row p-4 mz-rounded-20 mz-question-box-shaddow">
+							<div class="col-10">
+								<p class="fw-bold m-0">
+									Fames bibendum morbi et tincidunt quis sagittis. Interdum id proin pretium dignissim
+									magna habitasse elit id quam.
+								</p>
+							</div>
+							<div class="col-2 text-end">
+								<i class='bx bxs-chevron-down fs-4 text-muted fw-light'></i>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-8 my-4">
+						<div class="row p-4 mz-rounded-20 mz-question-box-shaddow">
+							<div class="col-10">
+								<p class="fw-bold m-0">
+									Fames bibendum morbi et tincidunt quis sagittis. Interdum id proin pretium dignissim
+									magna habitasse elit id quam.
+								</p>
+							</div>
+							<div class="col-2 text-end">
+								<i class='bx bxs-chevron-down fs-4 text-muted fw-light'></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="pt-4 mt-5">
+		<div class="container border-0 border-top border-2 p-0 pt-5">
+			<div class="row mz-col-10 mb-5 mz-ms-5">
+				<div class="col-12 col-md-3 mb-3">
+					<h5>Menu</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Accueil</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">À propos</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-3 mb-3">
+					<h5>Services</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Optimisation des
+								processus</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gestion des incidents</a>
+						</li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Amélioration de la
+								collaboration interne</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Conseil en transformation
+								numérique</a></li>
+					</ul>
+				</div>
+
+				<div class="col-12 col-md-3 mb-3">
+					<h5>Réseaux sociaux</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Linkedin</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-md-3 mb-3">
+					<h5>Autres</h5>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Mentions légales</a></li>
+						<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Politiques de
+								confidentialités</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="py-4 mt-4 border-top mz-bg-dark text-white">
+			<div class="d-flex flex-column flex-sm-row justify-content-between align-items-center container">
+				<img src="img/Logo.png">
+				<p class="m-0">Copyright &copy; 2024 MIZARA. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
